@@ -3,7 +3,7 @@ import s from './Contact.module.css';
 
 const Contact = ({ id, name, number, onDeleteContact }) => (
   <li className={s.listItem} key={id}>
-    <p>
+    <p className={s.listItemName}>
       {name} : {number}
     </p>
     <button className={s.btn} onClick={() => onDeleteContact(id)}>

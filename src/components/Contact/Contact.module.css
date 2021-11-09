@@ -8,6 +8,12 @@
   margin-bottom: 10px;
 }
 
+.listItemName {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
 .btn {
   width: fit-content;
   height: 25px;
@@ -31,8 +37,4 @@
 .btn:focus {
   background-color: #31a835;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
-
-p {
-  margin: 0;
 }
