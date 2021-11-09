@@ -1,0 +1,11 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 500px;
+
+  border: 5px double green;
+}

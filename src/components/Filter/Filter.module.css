@@ -1,0 +1,17 @@
+.input {
+  padding: 3px;
+  margin-bottom: 15px;
+
+  border: 2px solid lightgray;
+  border-radius: 4px;
+
+  transition-property: border, box-shadow;
+  transition-duration: 250ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:focus {
+  outline: transparent;
+  border: 2px solid rgb(107, 230, 107);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
